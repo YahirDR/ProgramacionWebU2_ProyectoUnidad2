@@ -1,0 +1,33 @@
+.Comentarios {
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .formComentarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .nombreInput,
+  .agregarComentarios,
+  button {
+    margin-bottom: 10px; 
+  }
+  
+  .agregarComentarios {
+    padding: 100px;
+    display: flex;
+  }
+  .listaComentarios {
+    margin-top: 20px;
+  }
+  
+  .listaComentarios > div {
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+  
+  .listaComentarios p {
+    font-family: "Times New Roman", Times, serif;
+  }
+  

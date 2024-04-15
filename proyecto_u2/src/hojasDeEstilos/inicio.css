@@ -1,0 +1,17 @@
+.inicio{
+    align-items: center;
+    justify-content: center;
+    font-family: Lato, sans-serif;
+    
+  }
+
+.ParteSuperior{
+    text-align: center;
+    padding: 0px 15px 10px 15px;
+    font-size:20px;
+    
+  }
+
+.contenedorVehiculos{
+    padding: 30px 50px 20px 50px;
+  }

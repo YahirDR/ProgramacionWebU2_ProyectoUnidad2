@@ -1,0 +1,14 @@
+.listaVehiculos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Esto distribuirá los elementos uniformemente en el contenedor */
+    width: 100%; /* Ajusta el ancho según sea necesario */
+    height: 100%;
+}
+
+.contenedorVehiculo {
+    width: calc(50% - 10px); /* Ajusta el ancho de cada elemento para que haya 3 por fila */
+    margin-bottom: 10px; /* Reduce el margen inferior entre los elementos */
+
+}
+

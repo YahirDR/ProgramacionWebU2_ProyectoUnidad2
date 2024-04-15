@@ -1,0 +1,24 @@
+html,
+body{
+    background-color: #4c4c88;
+}
+
+.BarraLateral {
+    width: 100%;
+    background-color: #333; /* Cambia el color de fondo según tus preferencias */
+    color: white; /* Cambia el color del texto según tus preferencias */
+    padding: 20px 0; /* Añade un espacio de relleno arriba y abajo */
+}
+
+.navNavegacion button{
+    margin-right: 50px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.navNavegacion button:hover {
+    color: blue; /* Cambia el color del texto a azul al pasar el cursor sobre el botón */
+  }

@@ -1,0 +1,67 @@
+html,
+body{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;   
+    padding: 0px 20px 0px 20px;
+}
+
+.VehiculoInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 2px solid white;
+    padding: 10px;
+    min-height: 500px;
+    background-color: #1b1b32;
+    min-width: 500px;
+    text-align: center;
+    align-items: center;
+    
+}
+.tituloVehiculo{
+    text-align: center;
+}
+.cuadoSeInvento{
+    display: flex;
+    text-align: justify;
+}
+.imagenMuestra{
+    float: left;
+    width: 200px; /* Ancho predeterminado */
+    height:  200px; /* Altura ajustada automáticamente para mantener la proporción */
+    padding-right: 10px;
+}
+.vehiculoInfoBody{
+    
+    flex-direction: column;
+    /* Ajusta según sea necesario */
+    justify-content: center;
+    align-items: center;
+}
+
+/*Como puedo hacer que haiga un salto cada cierto cantidad de texto en*/
+.Descripcion{
+    padding: 0px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: justify;
+    
+}
+.combustible{
+    justify-content: center;
+    line-height: 2;
+    font-weight: 400;
+}
+.tiposModelos{
+    padding-bottom: 10px;
+}
+.vehiculoDatosImagenes {
+    display: flex; /* Cambia el comportamiento del contenedor a flexbox */
+    justify-content: space-between; /* Distribuye el espacio disponible entre los elementos */
+}
+
+.vehiculoPrimerModelo,
+.vehiculoUltimoModelo {
+    width: 90%; /* Ajusta el ancho de las imágenes para dejar espacio entre ellas */
+}
